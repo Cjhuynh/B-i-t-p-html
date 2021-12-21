@@ -1,0 +1,71 @@
+*{
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f4f6f3;
+  font-family: 'Ibarra Real Nova', sans-serif;
+	line-height: 1.4;
+}
+a{
+  color: #f9f9f9;
+}
+.nav{
+  background: #fff;
+	display: flex;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 95%;
+	position: relative;
+	margin: 2rem auto;
+	font-size: 1.2rem;
+	box-shadow: -2px 4px 12px rgb(237, 237, 237);
+	background: #292F36;
+	max-width: 1400px;
+  height: 4em;
+  line-height: 4em;
+  justify-content: space-between;
+}
+.logo{
+  color: #B1B3B5;
+		font-size: 1.8rem;
+		align-self: center;
+		padding: .5rem 1.2rem .8rem;
+		cursor: pointer;
+		white-space: nowrap;
+}
+.ul_menu{
+  display: flex;
+  justify-content: center;
+  width: 850px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  position: relative;
+  padding: 0 0 0 4px;
+  margin: 0;
+  
+}
+.ul_menu li{
+  display: inline-block;
+    font: 700 1.1rem Oswald;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    color: #f9f9f9;
+    padding: 1.2rem;
+    align-self: center;
+}
+div li{
+  display: inline-block;
+    font: 700 1.1rem Oswald;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    color: #f9f9f9;
+    padding: 1.2rem;
+    align-self: center;
+}
