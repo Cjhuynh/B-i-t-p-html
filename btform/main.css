@@ -8,7 +8,7 @@ body{
   padding: 0;
 }
 .box{
-  background: green;
+  background: white;
   min-height: 100vh;
   display: flex;
   justify-content: center;
